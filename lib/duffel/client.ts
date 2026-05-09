@@ -53,7 +53,7 @@ export async function createOrder(params: {
     title: string;
     given_name: string;
     family_name: string;
-    gender: string;
+    gender: 'male' | 'female';
     born_on: string;
     email: string;
     phone_number: string;
@@ -64,7 +64,7 @@ export async function createOrder(params: {
 }) {
   return duffel.orders.create({
     selected_offers: [params.offerId],
-    passengers: params.passengers,
+    passengers: params.passengers as Parameters<typeof duffel.orders.create>[0]['passengers'],
     payments: [
       {
         type: params.paymentType,
