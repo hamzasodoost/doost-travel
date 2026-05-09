@@ -39,7 +39,7 @@ export default function FlightCard({ offer, onSelect }: FlightCardProps) {
   const slice = offer.slices[0];
   const returnSlice = offer.slices[1];
   const seg = slice?.segments?.[0];
-  const stops = slice?.segments?.length - 1 ?? 0;
+  const stops = (slice?.segments?.length ?? 1) - 1;
 
   const canChange = offer.conditions?.change_before_departure?.allowed;
   const canRefund = offer.conditions?.refund_before_departure?.allowed;
