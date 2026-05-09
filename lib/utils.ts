@@ -116,6 +116,80 @@ export const PACKAGES = [
   },
 ];
 
+export const MOCK_HOTELS = [
+  {
+    id: 'h1', name: 'Burj Al Arab Jumeirah', location: 'Jumeirah Beach Rd, Dubai', city: 'Dubai',
+    stars: 5, rating: 9.6, reviews: 4821, pricePerNight: 1299, currency: 'USD',
+    image: 'https://images.unsplash.com/photo-1582719508461-905c673771fd?w=800',
+    amenities: ['WiFi', 'Pool', 'Breakfast', 'Gym', 'Parking', 'Spa', 'Butler Service', 'Private Beach'],
+    description: 'The iconic sail-shaped silhouette of the Burj Al Arab is a defining feature of the Dubai skyline. Offering the ultimate in luxury, each suite features panoramic views of the Arabian Gulf.',
+    tag: 'Iconic',
+    distanceToCenter: '12 km',
+  },
+  {
+    id: 'h2', name: 'The Ritz-Carlton Tokyo', location: 'Roppongi, Tokyo', city: 'Tokyo',
+    stars: 5, rating: 9.4, reviews: 3102, pricePerNight: 750, currency: 'USD',
+    image: 'https://images.unsplash.com/photo-1540959733332-eab4deabeeaf?w=800',
+    amenities: ['WiFi', 'Pool', 'Breakfast', 'Gym', 'Spa', 'Concierge', 'City Views'],
+    description: 'Perched on floors 45–53 of the Tokyo Midtown Tower, The Ritz-Carlton Tokyo offers sweeping views of Mount Fuji and the city skyline. Refined Japanese aesthetics meet Western luxury.',
+    tag: 'Top Rated',
+    distanceToCenter: '5 km',
+  },
+  {
+    id: 'h3', name: 'Canaves Oia Epitome', location: 'Oia, Santorini', city: 'Santorini',
+    stars: 5, rating: 9.8, reviews: 1876, pricePerNight: 920, currency: 'USD',
+    image: 'https://images.unsplash.com/photo-1570077188670-e3a8d69ac5ff?w=800',
+    amenities: ['WiFi', 'Pool', 'Breakfast', 'Spa', 'Sunset Views', 'Private Terrace'],
+    description: 'Carved into the volcanic caldera cliffs of Oia, Canaves Oia Epitome offers breathtaking views of the Aegean Sea. Cave suites feature private infinity pools and unrivalled sunset panoramas.',
+    tag: 'Best Views',
+    distanceToCenter: '2 km',
+  },
+  {
+    id: 'h4', name: 'Four Seasons Resort Bali', location: 'Sayan, Ubud', city: 'Bali',
+    stars: 5, rating: 9.5, reviews: 2934, pricePerNight: 680, currency: 'USD',
+    image: 'https://images.unsplash.com/photo-1537996194471-e657df975ab4?w=800',
+    amenities: ['WiFi', 'Pool', 'Breakfast', 'Gym', 'Spa', 'Yoga', 'Jungle Views'],
+    description: 'Nestled in the lush Ayung River valley, this jungle sanctuary offers villa-style accommodation with private plunge pools. Immerse yourself in Balinese culture with cooking classes and temple visits.',
+    tag: 'Nature Retreat',
+    distanceToCenter: '8 km',
+  },
+  {
+    id: 'h5', name: 'Soneva Jani', location: 'Noonu Atoll, Maldives', city: 'Maldives',
+    stars: 5, rating: 9.9, reviews: 1243, pricePerNight: 2100, currency: 'USD',
+    image: 'https://images.unsplash.com/photo-1514282401047-d79a71a590e8?w=800',
+    amenities: ['WiFi', 'Pool', 'Breakfast', 'Spa', 'Overwater Villa', 'Snorkeling', 'All-Inclusive'],
+    description: 'An overwater paradise in the remote Noonu Atoll, Soneva Jani features retractable roofs for stargazing, water slides into the lagoon, and the clearest waters in the Maldives.',
+    tag: 'Luxury',
+    distanceToCenter: 'Private Island',
+  },
+  {
+    id: 'h6', name: 'Hotel de Russie', location: 'Via del Babuino, Rome', city: 'Rome',
+    stars: 5, rating: 9.2, reviews: 2187, pricePerNight: 495, currency: 'USD',
+    image: 'https://images.unsplash.com/photo-1533606688076-b6683a5f5f62?w=800',
+    amenities: ['WiFi', 'Pool', 'Breakfast', 'Gym', 'Spa', 'Garden', 'Concierge'],
+    description: 'A legendary Roman hotel steps from the Spanish Steps and Piazza del Popolo. The secret garden and terrace have hosted royalty and celebrities for over a century.',
+    distanceToCenter: '1 km',
+  },
+  {
+    id: 'h7', name: 'The Siam Hotel', location: 'Dusit, Bangkok', city: 'Bangkok',
+    stars: 5, rating: 9.3, reviews: 1654, pricePerNight: 380, currency: 'USD',
+    image: 'https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800',
+    amenities: ['WiFi', 'Pool', 'Breakfast', 'Gym', 'Spa', 'River Views', 'Muay Thai Ring'],
+    description: 'A stunning art deco boutique hotel on the banks of the Chao Phraya river. The Siam blends antique Thai artefacts with contemporary design, and features a legendary Muay Thai boxing ring.',
+    tag: 'Boutique',
+    distanceToCenter: '7 km',
+  },
+  {
+    id: 'h8', name: 'Amangiri', location: 'Canyon Point, Utah', city: 'Utah',
+    stars: 5, rating: 9.7, reviews: 987, pricePerNight: 1850, currency: 'USD',
+    image: 'https://images.unsplash.com/photo-1526392060635-9d6019884377?w=800',
+    amenities: ['WiFi', 'Pool', 'Breakfast', 'Spa', 'Desert Views', 'Helipad', 'Hiking'],
+    description: 'Nestled in 600 acres of dramatic canyon landscape, Amangiri is one of the world\'s most extraordinary retreats. Its minimalist suites frame the Utah desert like living art.',
+    tag: 'Desert Luxury',
+    distanceToCenter: 'Remote',
+  },
+];
+
 export const TESTIMONIALS = [
   {
     name: 'Sarah Mitchell',
